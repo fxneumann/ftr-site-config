@@ -1,0 +1,10 @@
+title: //div[@id="article-header"]//h2
+body: //div[@id="article-header"]//p[contains(@class,"text-2xl")] | //div[@id="main-article-body"]
+
+strip: //div[@data-analytics-container-type="article-list"]
+strip: //div[@data-analytics-container-title="Mehr zum Thema"]
+
+date: //meta[@name="date"]/@content
+author: //meta[@name="author"]/@content
+
+test_url: https://www.aargauerzeitung.ch/aargau/fricktal/laufenburgs-christkatholische-zeit-im-kulturkampf-ld.4202975
